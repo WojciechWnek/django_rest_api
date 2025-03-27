@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/django_rest_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_rest_api.iml" afterDir="false" />
+    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="model_to_dict">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_client/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_client/basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cfehome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cfehome/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +79,24 @@
       <option name="presentableId" value="Default" />
       <updated>1743078150927</updated>
       <workItem from="1743078153121" duration="446000" />
-      <workItem from="1743078600771" duration="1102000" />
+      <workItem from="1743078600771" duration="1212000" />
     </task>
+    <task id="LOCAL-00001" summary="model_to_dict">
+      <option name="closed" value="true" />
+      <created>1743079732394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743079732394</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="model_to_dict" />
+    <option name="LAST_COMMIT_MESSAGE" value="model_to_dict" />
   </component>
 </project>
