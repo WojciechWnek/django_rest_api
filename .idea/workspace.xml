@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="Using Function Based Views For Create Retrieve or List">
-      <change afterPath="$PROJECT_DIR$/py_client/delete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_client/update.py" afterDir="false" />
+    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="UpdateAPIView &amp; DestroyAPIView">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/views.py" afterDir="false" />
@@ -94,7 +92,7 @@
       <updated>1743078150927</updated>
       <workItem from="1743078153121" duration="446000" />
       <workItem from="1743078600771" duration="6459000" />
-      <workItem from="1743150013443" duration="4557000" />
+      <workItem from="1743150013443" duration="6230000" />
     </task>
     <task id="LOCAL-00001" summary="model_to_dict">
       <option name="closed" value="true" />
@@ -168,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743154259094</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="UpdateAPIView &amp; DestroyAPIView">
+      <option name="closed" value="true" />
+      <created>1743156011893</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743156011893</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +189,7 @@
     <MESSAGE value="Using serializer in create action" />
     <MESSAGE value="List endpoint" />
     <MESSAGE value="Using Function Based Views For Create Retrieve or List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using Function Based Views For Create Retrieve or List" />
+    <MESSAGE value="UpdateAPIView &amp; DestroyAPIView" />
+    <option name="LAST_COMMIT_MESSAGE" value="UpdateAPIView &amp; DestroyAPIView" />
   </component>
 </project>
