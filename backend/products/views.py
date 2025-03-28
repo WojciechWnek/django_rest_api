@@ -1,4 +1,9 @@
-from rest_framework import generics
+from django.http import Http404
+from rest_framework import generics, status
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+
+from django.shortcuts import get_object_or_404
 
 from .models import Product
 from .serializers import ProductSerializer
@@ -33,3 +38,36 @@ class ProductListAPIView(generics.ListAPIView):
 
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
+
+@api_view(['GET', "POST"])
+def product_alt_view(request, pk=None ,*args, **kwargs):
+    method = request.method
+
+    if method == "GET":
+        pass
+        if pk is not None:
+            # detail view
+            # 1 approach
+            # queryset = Product.objects.filter(pk=pk)
+            # if not queryset.exists():
+            #     raise Http404
+            # serializer = ProductSerializer(queryset, many=True)
+            # return Response(serializer.data)
+            # 2 approach
+            obj = get_object_or_404(Product, pk=pk)
+            data = ProductSerializer(obj).data
+            return Response(data)
+        else:
+            # list view
+            queryset = Product.objects.all()
+            data = ProductSerializer(queryset, many=True).data
+            return Response(data)
+
+    if method == "POST":
+        serializer = ProductSerializer(data=request.data)
+        if serializer.is_valid(raise_exception=True):
+            instance = serializer.save()
+            print(instance)
+
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

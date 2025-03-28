@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="Using serializer in create action">
-      <change afterPath="$PROJECT_DIR$/py_client/list.py" afterDir="false" />
+    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="List endpoint">
+      <change afterPath="$PROJECT_DIR$/py_client/not_found.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/views.py" afterDir="false" />
@@ -87,7 +87,7 @@
       <updated>1743078150927</updated>
       <workItem from="1743078153121" duration="446000" />
       <workItem from="1743078600771" duration="6459000" />
-      <workItem from="1743150013443" duration="782000" />
+      <workItem from="1743150013443" duration="3016000" />
     </task>
     <task id="LOCAL-00001" summary="model_to_dict">
       <option name="closed" value="true" />
@@ -145,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743150551398</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="List endpoint">
+      <option name="closed" value="true" />
+      <created>1743150895829</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743150895829</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +166,7 @@
     <MESSAGE value="Utilize serializer validation" />
     <MESSAGE value="Utilize rest framework detail generic view" />
     <MESSAGE value="Using serializer in create action" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using serializer in create action" />
+    <MESSAGE value="List endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="List endpoint" />
   </component>
 </project>
