@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="Utilize serializer validation">
-      <change afterPath="$PROJECT_DIR$/backend/products/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_client/detail.py" afterDir="false" />
+    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="Utilize rest framework detail generic view">
+      <change afterPath="$PROJECT_DIR$/py_client/create.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/cfehome/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cfehome/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +47,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.general",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -88,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1743078150927</updated>
       <workItem from="1743078153121" duration="446000" />
-      <workItem from="1743078600771" duration="5854000" />
+      <workItem from="1743078600771" duration="6459000" />
+      <workItem from="1743150013443" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="model_to_dict">
       <option name="closed" value="true" />
@@ -130,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743086169881</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Utilize rest framework detail generic view">
+      <option name="closed" value="true" />
+      <created>1743090794818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743090794818</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +148,7 @@
     <MESSAGE value="Utilize api_view decorator" />
     <MESSAGE value="Add serializer to product" />
     <MESSAGE value="Utilize serializer validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Utilize serializer validation" />
+    <MESSAGE value="Utilize rest framework detail generic view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Utilize rest framework detail generic view" />
   </component>
 </project>
