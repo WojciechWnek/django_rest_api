@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="List endpoint">
-      <change afterPath="$PROJECT_DIR$/py_client/not_found.py" afterDir="false" />
+    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="Using Function Based Views For Create Retrieve or List">
+      <change afterPath="$PROJECT_DIR$/py_client/delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_client/update.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/views.py" afterDir="false" />
@@ -42,6 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/wojtek/Projects/django_rest_api/py_client",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,6 +53,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/py_client" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="django_rest_api" type="Python.DjangoServer" factoryName="Django server">
       <module name="django_rest_api" />
@@ -87,7 +94,7 @@
       <updated>1743078150927</updated>
       <workItem from="1743078153121" duration="446000" />
       <workItem from="1743078600771" duration="6459000" />
-      <workItem from="1743150013443" duration="3016000" />
+      <workItem from="1743150013443" duration="4557000" />
     </task>
     <task id="LOCAL-00001" summary="model_to_dict">
       <option name="closed" value="true" />
@@ -153,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743150895829</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Using Function Based Views For Create Retrieve or List">
+      <option name="closed" value="true" />
+      <created>1743154259094</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743154259094</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +182,7 @@
     <MESSAGE value="Utilize rest framework detail generic view" />
     <MESSAGE value="Using serializer in create action" />
     <MESSAGE value="List endpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="List endpoint" />
+    <MESSAGE value="Using Function Based Views For Create Retrieve or List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Function Based Views For Create Retrieve or List" />
   </component>
 </project>
