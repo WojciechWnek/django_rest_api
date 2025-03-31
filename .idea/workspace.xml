@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="oken Authentication" />
+    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="Token Authentication">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cfehome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cfehome/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,22 +35,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/wojtek/Projects/django_rest_api/py_client",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/wojtek/Projects/django_rest_api/py_client&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/py_client" />
@@ -88,7 +92,8 @@
       <updated>1743078150927</updated>
       <workItem from="1743078153121" duration="446000" />
       <workItem from="1743078600771" duration="6459000" />
-      <workItem from="1743150013443" duration="13164000" />
+      <workItem from="1743150013443" duration="13787000" />
+      <workItem from="1743405594749" duration="1324000" />
     </task>
     <task id="LOCAL-00001" summary="model_to_dict">
       <option name="closed" value="true" />
@@ -194,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743179665488</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Token Authentication">
+      <option name="closed" value="true" />
+      <created>1743179674960</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1743179674960</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +226,7 @@
     <MESSAGE value="Mixins and a Generic API View" />
     <MESSAGE value="Custom Permissions" />
     <MESSAGE value="oken Authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="oken Authentication" />
+    <MESSAGE value="Token Authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Token Authentication" />
   </component>
 </project>
