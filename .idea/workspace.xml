@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="Token Authentication">
+    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="Using Mixins for Permissions">
+      <change afterPath="$PROJECT_DIR$/backend/api/mixins.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/cfehome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cfehome/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/products/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/permissions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +56,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/py_client" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/api" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="django_rest_api" type="Python.DjangoServer" factoryName="Django server">
@@ -93,7 +97,8 @@
       <workItem from="1743078153121" duration="446000" />
       <workItem from="1743078600771" duration="6459000" />
       <workItem from="1743150013443" duration="13787000" />
-      <workItem from="1743405594749" duration="1324000" />
+      <workItem from="1743405594749" duration="2771000" />
+      <workItem from="1744020962898" duration="3518000" />
     </task>
     <task id="LOCAL-00001" summary="model_to_dict">
       <option name="closed" value="true" />
@@ -207,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743179674960</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Default Django Rest Framework Settings">
+      <option name="closed" value="true" />
+      <created>1743407127920</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1743407127920</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +240,7 @@
     <MESSAGE value="Custom Permissions" />
     <MESSAGE value="oken Authentication" />
     <MESSAGE value="Token Authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Token Authentication" />
+    <MESSAGE value="Default Django Rest Framework Settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Django Rest Framework Settings" />
   </component>
 </project>
