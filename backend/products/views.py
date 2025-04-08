@@ -7,6 +7,7 @@ from django.shortcuts import get_object_or_404
 from .models import Product
 from .serializers import ProductSerializer
 from api.permissions import IsStaffEditorPermission
+from api.mixins import UserQuerySetMixin
 
 
 class ProductMixinView(
@@ -45,6 +46,7 @@ class ProductMixinView(
 
 class ProductListCreateAPIView(
     IsStaffEditorPermission,
+    UserQuerySetMixin,
     generics.ListCreateAPIView):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
@@ -57,12 +59,19 @@ class ProductListCreateAPIView(
         if content is None:
             content = title
 
-        serializer.save(content=content)
+        serializer.save(user=self.request.user,content=content)
+    #
+    # def get_queryset(self, *args, **kwargs):
+    #     qs = super().get_queryset(*args, **kwargs)
+    #     request = self.request
+    #     return qs.filter(user=request.user)
+
 
 # another way of defining view
 product_list_create_view = ProductListCreateAPIView.as_view()
 
 class ProductDetailAPIView(
+    UserQuerySetMixin,
     IsStaffEditorPermission,
     generics.RetrieveAPIView):
     queryset = Product.objects.all()
