@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="Custom Validation with Serializers">
+    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="migrations">
+      <change afterPath="$PROJECT_DIR$/backend/api/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api/mixins.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/mixins.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/products/validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/validators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,7 @@
       <workItem from="1743150013443" duration="13787000" />
       <workItem from="1743405594749" duration="2771000" />
       <workItem from="1744020962898" duration="9816000" />
-      <workItem from="1744097046348" duration="9447000" />
+      <workItem from="1744097046348" duration="13161000" />
     </task>
     <task id="LOCAL-00001" summary="model_to_dict">
       <option name="closed" value="true" />
@@ -263,7 +261,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744112880471</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Request User Data &amp; Customize View Queryset">
+      <option name="closed" value="true" />
+      <created>1744116673519</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1744116673519</updated>
+    </task>
+    <task id="LOCAL-00022" summary="migrations">
+      <option name="closed" value="true" />
+      <created>1744117594823</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1744117594823</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +303,8 @@
     <MESSAGE value="URLs, Reverse, &amp; Serializers" />
     <MESSAGE value="Model Serializer Create &amp; Update Method" />
     <MESSAGE value="Custom Validation with Serializers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Custom Validation with Serializers" />
+    <MESSAGE value="Request User Data &amp; Customize View Queryset" />
+    <MESSAGE value="migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="migrations" />
   </component>
 </project>

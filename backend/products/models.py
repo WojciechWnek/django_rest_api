@@ -4,7 +4,7 @@ from django.db import models
 User = settings.AUTH_USER_MODEL
 
 class Product(models.Model):
-    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, default=1)
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, default=1, related_name='products')
     title = models.CharField(max_length=120)
     content = models.TextField(blank=True, null=True)
     price = models.DecimalField(decimal_places=2, max_digits=15, default=99.99)
