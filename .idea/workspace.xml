@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="migrations">
-      <change afterPath="$PROJECT_DIR$/backend/api/serializers.py" afterDir="false" />
+    <list default="true" id="574ed713-957e-4df7-b934-c76e75f32cdc" name="Changes" comment="Related Fields &amp; Foreign Key Serializer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cfehome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cfehome/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +99,7 @@
       <workItem from="1743150013443" duration="13787000" />
       <workItem from="1743405594749" duration="2771000" />
       <workItem from="1744020962898" duration="9816000" />
-      <workItem from="1744097046348" duration="13161000" />
+      <workItem from="1744097046348" duration="17446000" />
     </task>
     <task id="LOCAL-00001" summary="model_to_dict">
       <option name="closed" value="true" />
@@ -277,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744117594823</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Related Fields &amp; Foreign Key Serializer">
+      <option name="closed" value="true" />
+      <created>1744121121465</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1744121121465</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +313,7 @@
     <MESSAGE value="Custom Validation with Serializers" />
     <MESSAGE value="Request User Data &amp; Customize View Queryset" />
     <MESSAGE value="migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="migrations" />
+    <MESSAGE value="Related Fields &amp; Foreign Key Serializer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Related Fields &amp; Foreign Key Serializer" />
   </component>
 </project>
